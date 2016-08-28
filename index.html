@@ -1,0 +1,50 @@
+<!--Create and edited by Hieu Nguyen-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnalogSea</title>
+	<meta charset="UTF-8">
+	<meta name="AnalogSea" content="AnalogSea login company for storage and email.">
+
+ <!--resets browser defaults for how to render HTML tags, so that different browsers render things consistently -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+  <!--Here is the font awesome bootstrap-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <!--Copy and Paste from Codepen example using Roberto font -->  
+  	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!--Applied extention file to input CSS into this HTML file index.html -->
+  	<link rel="stylesheet" type="text/css" href="main.css">
+
+
+</head>
+<body>
+<!--Create a div with an image class logo and name the directory in folder.-->
+<div><img class="logo" src="image/logo.png"></div>
+<!--Create sign in login using the similar format and template on codepen http://codepen.io/team/thinkful/pen/QEdqJa -->
+<div class="form">
+	<h1>Sign up</h1>
+	<form class="create-account" action="/signup/" method="post">
+<!--http://www.w3schools.com/tags/tag_fieldset.asp 	
+The <fieldset> tag is used to group related elements in a form.
+The <fieldset> tag draws a box around the related elements.-->
+	<fieldset name="create-account" legend="Create your AnalogSea account here.">
+	<!--Create input for email login with example placeholder. -->
+		<label for="email">Email</label>
+		<input id="email" name="email" type="email" placeholder="foo@bar.com" required>
+	<!--Create password for login with example placeholder. -->	
+		<label for="password">Password</label>
+		<input id="password" name="password" type="text" placeholder="1234passw0rd" required>
+	<!--Create signup button for email login. -->	
+		<button type="submit">Sign Up</button>
+	</fieldset>
+	</form>
+	<!--Insert forgot password-->
+	<p><a href="/forgot-password/new">Forgot password?</a></p>
+</div>
+<!--Create a div class for exisiting memmbers for login.-->
+<div class="member">
+<h4>Already have an account? <a href="/login">Log in.</a></h4>
+</div>
+</body>
+</html>

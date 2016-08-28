@@ -1,0 +1,95 @@
+body {
+	background-color: #3292ef;
+	font-family: Roboto;
+}
+
+.form {
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 25px;
+	margin: auto;
+	width: 320px;
+	border-radius: 3px;
+	background-color: #ffffff;
+
+}
+
+.logo {
+	display: block;
+	height: 35px;
+	width: auto;
+	margin: auto;
+	padding-top: 40px;
+	margin-top: 0;
+	margin-bottom: 30px;
+
+}
+
+.member {
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+	font-size: 33px;
+	font-weight: 100;
+	
+}
+
+p {
+	color: grey;
+	text-align: center;
+	font-size: 13px;
+}
+
+fieldset {
+	border: 0;
+	padding: 0;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+input, button{
+	padding: 15px;
+	width: 280px;
+	height: 25px;
+	border-radius: 3px;
+
+}
+
+input {
+	border: 2px solid grey;
+	background-color: whitesmoke;
+
+}
+
+
+button {
+	background-color: #06b70f;
+	border: 0;
+	width: 320px;
+	height: 55px;
+	margin-top: 20px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+button:hover {
+	background-color: green;
+}
+
+a { 
+	color:inherit;
+ }
